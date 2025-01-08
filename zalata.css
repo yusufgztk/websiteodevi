@@ -1,0 +1,142 @@
+body {
+	background-image: url(malzemeler/bg.jpg);
+	background-repeat: repeat;
+}
+#container {
+	background-color: #FFF;
+	padding: 10px;
+	height: auto;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #CCC;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+#header {
+	height: 150px;
+	width: 980px;
+}
+#logo {
+	height: 150px;
+	width: 189px;
+	float: left;
+}
+#menu {
+	background-image: url(malzemeler/bgMenu.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 790px;
+	float: left;
+	margin-top: 55px;
+}
+#container #header #menu ul {
+	padding: 0px;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+#container #header #menu ul li a {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 110px;
+	text-decoration: none;
+	color: #077936;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+#container #header #menu ul li a:hover {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 110px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+#clear-header {
+	clear: both;
+}
+#banner {
+	height: 303px;
+	width: 980px;
+	margin-top: 10px;
+	background-image: url(malzemeler/bgSlide.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding-bottom: 12px;
+}
+#divider {
+	height: 26px;
+	width: 980px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#content {
+	height: 200px;
+	width: 980px;
+}
+#content-left {
+	background-color: #F0EAD2;
+	height: 188px;
+	width: 288px;
+	border: 1px solid #CCC;
+	float: left;
+	padding: 5px;
+	font-size: 14px;
+	text-align: justify;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#container #content #content-left h1 {
+	font-size: 14px;
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+#clear-content {
+	clear: both;
+}
+#footer {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	height: 30px;
+	width: 980px;
+	line-height: 30px;
+	margin-top: 10px;
+}
+#container #footer a {
+	color: #333;
+	text-decoration: none;
+}
+#container #footer a:hover {
+	color: #F00;
+	text-decoration: none;
+}
+
+#content-center {
+	height: 200px;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#content-right {
+	height: 200px;
+	width: 340px;
+	float: left;
+}

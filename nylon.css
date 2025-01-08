@@ -1,0 +1,72 @@
+
+body{
+    background-image: url(img/konser1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+font-size: 200%;
+font-family: fantasy;
+}
+h1{
+    font-size: 300%;
+    font-family: fantasy;
+}
+h3{
+    font-size: 200%;
+    font-family: fantasy;
+    color: aliceblue;
+}
+p1{
+    font-size: 100%;
+    font-family: fantasy;
+background-color:wheat
+}
+p2{
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-family: unset;
+    background-color: crimson;
+}
+img{
+    width: 30%; height: 30%;
+}
+
+h4{
+    font-size: 100%;
+    font-family: fantasy;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}h6{
+cursor:pointer;
+transition: 0.8s;
+
+}
+a:hover{
+    color: red;
+
+}
+h6.hover{
+    color: red; 
+}
+table{
+    color: black ;
+}
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+audio{
+    width: 100%;
+}
