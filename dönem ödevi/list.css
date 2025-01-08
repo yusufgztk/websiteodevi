@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    min-block-size: 10px;
+}
+
+.navbar a {
+   
+    text-decoration: none;
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sansri-sef;
+    
+
+
+
+}
+
+body {
+    
+    background-image: url(img/city.jpg);
+    background-size: cover;
+    opacity: 0.9;
+
+}
+
+hr {
+    color: white;
+}
+
+
+ul {
+    position: relative;
+    bottom: 280px;
+}
+
+li a{
+    min-height: 30px;
+    text-decoration: none;
+    width: 200px;
+    color: black;
+    font-size: 15pt;
+    font-family:'deneme';
+    display: block;
+    
+
+ display:flex;
+
+}
+
+.alt{
+    
+    background-color: black;
+    min-height: 100px;
+    display: flex;
+    justify-content:space-around
+
+}
+h1{
+ padding-bottom: 2px;
+ color: white;
+ font-size: 30pt;
+ font-family:'deneme';
+ -webkit-text-stroke: 0.1px black;
+
+    
+}
+.body{
+    background-color: black;
+    opacity: 0.9;
+}
+@font-face {
+    font-family:'deneme';
+    src: url('font/Jaro-Regular-VariableFont_opsz.ttf'); 
+    }
+ p1{
+    color: white;
+ }
+ p{
+    color: white;
+    font-size: 20pt;
+ }

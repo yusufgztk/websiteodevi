@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makinaj</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1f1;
+            color: #333;
+        }
+
+        header {
+            background-color: #e91e63;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fce4ec;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #e91e63;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .product-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-item img {
+            max-width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .product-item h3 {
+            margin: 0.5rem 0;
+        }
+
+        .product-item p {
+            margin: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #e91e63;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .button {
+            background-color: #e91e63;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
+
+        .button:hover {
+            background-color: #d81b60;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Makinaj Dünyasına Hoşgeldin</h1>
+    </header>
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="#products">Ürünler</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+    <div class="container">
+        <section id="products">
+            <h2>Popüler Ürünler</h2>
+            <div class="product">
+                <div class="product-item">
+                    <img src="img/golden-rose-longstay-liquid-matte-lipstick-42-likit-mat-ruj-likit-mat-ruj-golden-rose-27011-14-B.jpg" alt="Ruj">
+                    <h3>Mat Ruj</h3>
+                    <p>Fiyat: 129 TL</p>
+                    <button class="button" onclick="addToCart('Mat Ruj')">Sepete Ekle</button>
+                </div>
+                <div class="product-item">
+                    <img src="img/345737ee-5fd1-44f2-975a-51ba18ea5681_size960x1440_cropCenter.jpg" alt="Fondöten">
+                    <h3>Fondöten</h3>
+                    <p>Fiyat: 199 TL</p>
+                    <button class="button" onclick="addToCart('Fondöten')">Sepete Ekle</button>
+                </div>
+                <div class="product-item">
+                    <img src="img/bdccaed2-5ad5-405c-abb3-c1757b69b11c_size960x1440_cropCenter.jpg" alt="Göz Farı">
+                    <h3>Göz Farı Paleti</h3>
+                    <p>Fiyat: 249 TL</p>
+                    <button class="button" onclick="addToCart('Göz Farı Paleti')">Sepete Ekle</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <script>
+        function addToCart(product) {
+            alert(product + ' sepete eklendi!');
+        }
+    </script>
+</body>
+</html>

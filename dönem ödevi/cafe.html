@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Liva's</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #6b4f4f;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #8c6e63;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        .about {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .menu-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item img {
+            max-width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .menu-item h3 {
+            margin: 0.5rem 0;
+        }
+
+        .menu-item p {
+            margin: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #6b4f4f;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kafe Lezzetleri</h1>
+        <p>Sıcacık bir ortamda en güzel lezzetler sizi bekliyor.</p>
+    </header>
+    <nav>
+        <a href="index.html">Anasayfa</a>
+        <a href="#about">Hakkımızda</a>
+        <a href="#menu">Menü</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Hakkımızda</h2>
+            <p>Kafe Lezzetleri, taptaze kahveler ve leziz tatlılarla dolu bir buluşma noktası. 
+               Rahat bir atmosferde zaman geçirmek isteyen herkesi bekliyoruz.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Menü</h2>
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="img/che.jpg" alt="Latte">
+                    <h3>Latte</h3>
+                    <p>Fiyat: 30 TL</p>
+                </div>
+                <div class="menu-item">
+                    <img src="img/cake.jpg" alt="Cheesecake">
+                    <h3>Cheesecake</h3>
+                    <p>Fiyat: 40 TL</p>
+                </div>
+                <div class="menu-item">
+                    <img src="img/sandi.jpg" alt="Sandviç">
+                    <h3>Tavuklu Sandviç</h3>
+                    <p>Fiyat: 50 TL</p>
+                </div>
+                <div class="menu-item">
+                    <img src="img/ex.jpg" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <p>Fiyat: 25 TL</p>
+                </div>
+            </div>
+        </section>
+    </div>
+   
+</body>
+</html>
